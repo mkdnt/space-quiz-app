@@ -1,0 +1,72 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+
+body {
+  /* background-color: #1d3557; */
+  background-image: url(images/OpenSky.webp);
+  background-repeat: repeat, no-repeat;
+    background-size: auto, 100% 100%;
+    background-attachment: fixed;
+    overflow-y: scroll;
+}
+
+header {
+  padding: 5px;
+  font-family: Futura, sans-serif;
+  color: #e5e5e5;
+  text-align: center;
+  border: 4px solid #a8dadc;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.card {
+  font-family: Futura, sans-serif;
+  color: #e5e5e5;
+  text-align: center;
+  border: 1px solid #a8dadc;
+  border-radius: 30px;
+  padding-bottom: 20px;
+  margin: 10px;
+}
+
+.form {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.radio {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+button {
+  background-color: #f77f00;
+  color: #1d3557;
+  border-radius: 30px;
+  text-align: center;
+}
+
+/* desktop */
+@media all and (min-width: 600px) {
+
+header {
+  margin-left: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+
+
+}
